@@ -1,0 +1,97 @@
+.content{
+    width: 99.8%;
+    height: 100%;
+    padding-top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-color : white ;
+    background-image: url("../images/hero_auto.png");
+    background-position : right ;
+}
+
+#content > .div-content{
+    padding: 10px;
+    display: flex;
+}
+
+.div-content > div{
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conte > img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.conte > .libelle{
+    text-align: center;
+    justify-content: center;
+}
+
+#m1{
+    margin-left: 15%;
+}
+
+#m2, #m3{
+    margin-left: 25%;
+}
+
+
+#div-content-2{
+    padding: 20px;
+}
+
+.div-content-2 > .content-2{
+    width: 750px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+.content-2 > .blogs{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid blue;
+}
+
+.blogs > img{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.blogs > .formular{
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.blogs > .formula-content{
+    text-align: justify;
+}
+
+.blogs > .souscrire{
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.souscrire > div{
+    background-color: blue;
+    padding: 3px;
+    color: white;
+    
+}
+
+.blogs > .plus{
+    margin: auto;
+    text-align: center;
+    color: blue;
+}

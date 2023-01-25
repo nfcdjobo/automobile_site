@@ -1,0 +1,92 @@
+.my-ul-header-nan{
+    display: flex;                          /* Transformation en flexbox */
+    display: inline-block;
+    /* justify-content: flex-end;              Disposition des option du menu de droite vers la gauche */
+    padding:0;                              /* Suppression des marges internes */ 
+}
+
+ol{
+    justify-content: flex-end;              /*Disposition des option du menu de droite vers la gauche*/
+}
+
+.my-ul-header-nan li {
+    list-style-type: none ;                 /* Suppression des puces */
+    padding-left : 40px;
+
+}
+
+
+
+
+
+
+
+
+#my-logo-header-nan{
+    max-width: 250px;
+}
+
+
+
+.my-ul-header-nan .my-li-header-nan, .logo-nan {
+    list-style-type: none ;                 /* Suppression des puces */
+    margin-top: -5%;
+
+}
+
+.my-ul-header-nan .my-a-header-nan {
+    display:block;                          /* Transformation en block */
+    /* min-width: 140px;                       Largeur minimale des liens            */
+    margin: 0.3rem;                         /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;                      /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;                     /* Centrage du texte */   
+    background-color: #d9d9d9;            /* Couleur d'arrière-plan */
+    color: rgb(0, 0, 0);                  /* Couleur du texte */
+    text-decoration: none;                  /* Suppression du soulignement */
+    border: 1px solid rgb(0, 0, 0);       /* Ajout d'une bordure */
+    border-radius: 10px;                    /* Arrondis des bordures */
+}
+
+.search{
+    background-color: #d9d9d9;             /* Couleur d'arrière-plan */
+    min-width: 150px;                        /* Largeur minimale des liens */
+    max-height: 27px;
+    border: 0.5px solid rgb(0, 0, 0);      /* Ajout d'une bordure */
+    margin-top: 5px;
+    border-radius: 15px;                      /* Arrondis des bordures */
+}
+
+.my-input-header-nan{
+    background-color: white;                 /* Couleur d'arrière-plan */
+    max-width: 100px;                          
+    margin: 0.1rem;                            /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.2rem 0;                         /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    border: 0.5px solid rgb(0, 0, 0);          /* Ajout d'une bordure */
+    border-radius: 15px 0px 0px 15px;          /* Arrondis des bordures */
+}
+
+.my-submit-header-nan{
+    background-color: rgb(0, 0, 0);          /* Couleur d'arrière-plan */
+    border-radius: 0px 15px 15px 0px;          /* Arrondis des bordures */
+    margin-left: -6px;
+    padding: 3px;
+    color: white;
+}
+
+
+.my-ul-header-nan #my-a-header-nan-login {
+    display:block;                              /* Transformation en block */
+    margin: 0.3rem;                             /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;       /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;                         /* Centrage du texte */   
+    background-color: blue;                   /* Couleur d'arrière-plan */
+    color: white;                             /* Couleur du texte */
+    text-decoration: none;                      /* Suppression du soulignement */
+    border: 1px solid white;                  /* Ajout d'une bordure */
+    border-radius: 10px;                        /* Arrondis des bordures */
+}
+
+.my-br-header-nan{
+    margin-top: -32px;
+}
+

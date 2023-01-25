@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 3px 3px rgb(182, 181, 181);
+
+    /* filter:Alpha(opacity=80);
+    -moz-opacity:0.80;
+    opacity: 0.80;  */
+}
+
+header > .nan-nav{
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1;
+
+}
+
+ header  .nan-ul:not(#nan-li){
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;              
+}
+
+ul  > .nan-li{
+    background-color: rgb(209, 207, 205);
+    margin: 5px 5px -5px auto;
+    height: 15px;
+    list-style-type: none;                 /* Suppression des puces */
+    padding: 10px 0px 15px 5px;
+    border-radius: 15px;
+    text-align: center;                     /* Centrage du texte */
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 1;
+    text-decoration: none;
+    color: black;
+}
+
+
+ul  > #auth{
+    background-color: rgb(0, 0, 225);
+    margin: 5px 5px -5px auto;
+    height: 15px;
+    list-style-type: none;                 /* Suppression des puces */
+    padding: 10px 0px 15px 5px;
+    border-radius: 15px;
+    text-align: center;                     /* Centrage du texte */
+    border: 1px solid rgb(0, 0, 225);
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+ul  > .nan-li:not(#nan-input){
+    width: 150px;
+}
+
+div#nan-input{
+    margin-top: -7px;
+    width: 140px;
+    height: 30px;
+    border-color: brown;
+    border-radius: 10px 0 0 10px;
+}
+
+input#input{
+    width: 100px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: 1px;
+    border-radius: 10px 0 0 10px;
+}
+
+.submit{
+    width: 35px;
+    height: 32px;
+    border-radius:  0px  10px  10px 0px;
+    color: white;
+}
+
+.image-r1{
+    width: 35px;
+    height: 30px;
+    margin-left: -1px;
+
+    border-radius:  0px  10px  10px 0px;
+}
+
+.nan-ul{
+    margin-top: 10px;
+}
