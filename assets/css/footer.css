@@ -6,6 +6,7 @@
     .content > .footer{
         background-color: rgb(4, 4, 122);
         display: flex;
+        margin-top: -20px;
     }
     
     .footer > .div-foot{
