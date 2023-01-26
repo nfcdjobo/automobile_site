@@ -18,7 +18,7 @@
 .div-content > .lire-text{
     background-color: rgba(78, 78, 78, 0.8);
     width: 69%;
-    margin-top: 65px;
+    margin-top: 0px;
     margin-left: -5px;
     margin-right: 5px;
     padding: 5px;
@@ -74,9 +74,8 @@
 .div-content > .submit-form{
     background-color: rgba(78, 78, 78, 0.8);
     width: 30%;
-    margin-top: 65px;
+    margin-top: 0px;
     margin-left: 5px;
-    /* border: 2px solid orangered; */
 }
 
 .content-form > .formulaire{

@@ -34,12 +34,51 @@
         color: white;
     }
     
-    .barre-1{
+    #bar-1{
         width: 105px;
         transform: rotate(90deg);
-        translate: -53px 51px;
+        translate: -67px 43px;
         border: 1px solid white;
     }
+
+    #bar-2{
+        width: 105px;
+        transform: rotate(90deg);
+        translate: -78px 43px;
+        border: 1px solid white;
+    }
+
+    #bar-3{
+        width: 105px;
+        transform: rotate(90deg);
+        translate: -114px 43px;
+        border: 1px solid white;
+    }
+
+    #bar-4{
+        width: 105px;
+        transform: rotate(90deg);
+        translate: -67px 43px;
+        border: 1px solid white;
+    }
+
+    #bar-5{
+        width: 105px;
+        transform: rotate(90deg);
+        translate: -55px 43px;
+        border: 1px solid white;
+    }
+
+    #bar-6{
+        width: 105px;
+        transform: rotate(90deg);
+        translate: -78px 43px;
+        border: 1px solid white;
+    }
+
+
+
+
     
     .lien{
         margin: 7px;
@@ -73,6 +112,7 @@
     .form{
         background-color: rgb(4, 4, 122);
         height: 50px;
+        margin-top: -15px;
     }
     
     .final > .forminput{
@@ -89,7 +129,7 @@
         background-color: rgb(255, 255, 255);
         height: 30px;
         width: 300px;
-        margin: 5px 0 0 350px;
+        margin: 0px 0 0 350px;
         padding: 2px;
         border-radius: 15px;
     }
@@ -114,6 +154,6 @@
     
     .endTwo{
         color: white;
-        margin: 15px 0 0 200px;
+        margin: 5px 0 0 200px;
     }
     
