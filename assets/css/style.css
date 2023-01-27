@@ -1,3 +1,18 @@
+.content > .slider {
+  width: 1335px;
+  overflow: hidden;
+  margin-top: -15px;
+}
+
+.slider > .slides {
+  width: calc(1335px * 4);
+  animation: defiler 32s infinite;
+}
+
+.slides > .slide {
+  float: left;
+}
+
 .our-sliders {
   margin-top: -20px;
 }
@@ -5,20 +20,6 @@
 .slide-img {
   width: 1335px;
   height: 570px;
-}
-
-.slider {
-  width: 1335px;
-  overflow: hidden;
-}
-
-.slides {
-  width: calc(1335px * 4);
-  animation: defiler 42s infinite;
-}
-
-.slide {
-  float: left;
 }
 
 @keyframes defiler {
