@@ -1,0 +1,51 @@
+.slide-img {
+  width: 500px;
+  height: 300px;
+}
+
+.slider {
+  width: 500px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+
+.slides {
+  width: calc(500px * 4);
+  animation: defiler 10s infinite;
+}
+
+.slide {
+  float: left;
+}
+
+@keyframes defiler {
+  0% {
+    transform: translateX(
+      0
+    ); /*On définit zéro comme absisse de position de basse*/
+  }
+  10% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-500px);
+  }
+  35% {
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translateX(-1000px);
+  }
+  60% {
+    transform: translateX(-1000px);
+  }
+  75% {
+    transform: translateX(-1500px);
+  }
+  85% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
