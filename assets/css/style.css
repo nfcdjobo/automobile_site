@@ -1,4 +1,4 @@
-.content > .slider {
+.my-slider > .slider {
   width: 1335px;
   overflow: hidden;
   margin-top: -15px;
@@ -23,36 +23,33 @@
 }
 
 @keyframes defiler {
-  0% {
+  0%,
+  15%,
+  100% {
     transform: translateX(
       0
     ); /*On définit zéro comme absisse de position de basse*/
   }
-  15% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-1335px);
-  }
+
+  25%,
   40% {
     transform: translateX(-1335px);
   }
-  50% {
-    transform: translateX(-2670px);
-  }
+
+  50%,
   65% {
     transform: translateX(-2670px);
   }
-  75% {
-    transform: translateX(-4005px);
-  }
+
+  75%,
   90% {
     transform: translateX(-4005px);
   }
-  100% {
-    transform: translateX(0);
-  }
 }
+
+/* CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
+/* CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
+/* CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
 
 .content {
   width: 100%;
@@ -65,20 +62,46 @@
 
 #content > .div-content {
   padding: 10px;
+}
+
+.offre {
+  background-color: rgb(0, 0, 255);
+  border: 1.5px solid rgb(255, 0, 0);
+  margin-top: 5px;
+  padding: 3px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+
+.conto {
   display: flex;
 }
 
-.div-content > div {
-  padding: 5px;
+.conto > .conte {
+  padding: 2fnospx;
   margin-left: 20px;
   margin-right: 20px;
 }
 
+/* .div-content > .conte {
+  margin-top: -200px;
+} */
+
 .conte > img {
-  width: 150px;
-  height: 150px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 5px;
+  width: 110px;
+  height: 110px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.conte > div {
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .conte > .libelle {
@@ -96,7 +119,8 @@
 }
 
 #div-content-2 {
-  padding: 20px;
+  padding: 10px;
+  /* margin-top: -400px; */
 }
 
 .div-content-2 > .content-2 {
@@ -117,7 +141,10 @@
 
 .content-2 > .blogs {
   padding: 5px;
-  margin: 5px;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
   border: 2px solid blue;
 }
 
