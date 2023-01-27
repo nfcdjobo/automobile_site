@@ -1,101 +1,149 @@
-.content{
-    width: 99.8%;
-    height: 100%;
-    padding-top: 0px;
-    border: 1px solid rgb(0, 0, 0);
-    background-repeat: no-repeat;
-    background-color : white ;
-    background-image: url("../images/font.webp");
-    background-position : right ;
-    background-attachment:fixed;
+.content {
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+  border: 1px solid rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../images/font.webp");
+  background-position: right;
+  background-attachment: fixed;
 }
 
-.content > .div-content-2{
-    width: auto;
-    height: auto;
-    margin-top: 6.25rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
-    padding: 0.625rem;
-    border: 2px solid orangered;
+.content > .div-content-2 {
+  background-color: rgba(78, 78, 78, 0.8);
+  width: auto;
+  height: auto;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  padding: 0.625rem;
 }
 
-.div-content-2 > .div-content{
-    width: 50%;
-    height: auto;
-    text-align: center;
-    color: blue;
-    margin-left: 25%;
-    border: 2px solid orangered;
+.div-content-2 > .div-content {
+  background-color: rgb(0, 0, 255);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-left: 25%;
 }
 
-.div-content-2 > .content-item{
-    width: auto;
-    height: auto;
-    margin: 0.625rem;
-    padding: 0.625rem;
-    border: 2px solid rgb(0, 0, 255);
+.div-content-2 > .content-item {
+  width: auto;
+  height: auto;
+  margin: 0.625rem;
+  padding: 0.625rem;
 }
 
-/* .content-item > .item{
-    width: auto;
-    height: auto;
-    margin: 0.625rem;
-    padding: 0.0625rem;
-    border: 2px solid rgb(0, 255, 0);
-} */
-
-form > .item-catego{
-    width: auto;
-    height: auto;
-    margin: 0.625rem;
-    padding: 0.625rem;
-    align-content: flex-end;
-    border: 2px solid rgb(255, 255, 0);
+.content-item > .item {
+  width: auto;
+  height: auto;
+  margin: 0.625rem;
+  padding: 0.0625rem;
+  border: 2px solid rgb(0, 255, 0);
 }
 
-.item-catego > label{
-    width: auto;
-    height: auto;
-    margin: 0.625rem;
-    padding: 0.625rem;
+form > .item-catego {
+  width: auto;
+  height: auto;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  align-content: flex-end;
+  border: 2px solid rgb(255, 255, 0);
 }
 
-.item-catego > select{
-    width: auto;
-    height: auto;
-    margin: 0.625rem;
-    padding: 0.625rem;
+.item-catego > label {
+  width: auto;
+  height: auto;
+  margin: 0.625rem;
+  padding: 0.625rem;
 }
 
-/* .item > .item-blog{
-    width: auto;
-    height: auto;
-    border: 2px solid rgb(255, 255, 0);
-    align-content: flex-start;
-    margin: 0.0625rem;
-    padding: 0.0625rem;
-} */
-
-
-/* .item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-} */
-
-
-.item {
-    display: flex;
-    flex-wrap: wrap;
+.item-catego > select {
+  width: auto;
+  height: auto;
+  margin: 0.625rem;
+  padding: 0.625rem;
 }
 
 .item > .item-blog {
-    margin: 0 10px;
-    flex: 1 1 200px;
+  background-color: rgb(0, 0, 255);
+  width: auto;
+  height: auto;
+  align-content: flex-start;
+  margin: 0.0625rem;
+  padding: 0.625rem;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  text-align: justify;
 }
 
+.item-blog:hover {
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
 
+  /* L'image est grossie de 25% */
+  -webkit-transform: scale(1.06); /* Safari et Chrome */
+  -moz-transform: scale(1.06); /* Firefox */
+  -ms-transform: scale(1.06); /* Internet Explorer 9 */
+  -o-transform: scale(1.06); /* Opera */
+  transform: scale(1.06);
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(0, 0, 255);
+  color: blue;
+}
 
+.items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
 
+.item {
+  max-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.item > .item-blog {
+  margin: 0 10px;
+  flex: 1 1 200px;
+}
+
+.img-blogs {
+  border: 1.5px solid rgba(78, 78, 78, 0.8);
+  width: 67px;
+  height: 67px;
+  margin-left: 35%;
+  margin-bottom: 15px;
+  /* margin-right: 50%; */
+}
+
+.img-blogs img {
+  width: 67px;
+  height: 67px;
+}
+
+.libelle {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+}
+
+.options > .suite {
+  width: auto;
+  background-color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.options > .dema-devis {
+  border: 1px solid rgb(255, 0, 0);
+  margin-left: auto;
+}
