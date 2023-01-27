@@ -22,7 +22,8 @@
 .div-content-2 > .div-content {
   background-color: rgb(0, 0, 255);
   width: 50%;
-  height: auto;
+  height: 100%;
+  padding: 5px;
   text-align: center;
   color: rgb(255, 255, 255);
   margin-left: 25%;
@@ -36,20 +37,18 @@
 }
 
 .content-item > .item {
+  background-color: rgba(255, 255, 255, 0.794);
   width: auto;
   height: auto;
-  margin: 0.625rem;
-  padding: 0.0625rem;
-  border: 2px solid rgb(0, 255, 0);
+  margin: 1.25rem;
+
+  border: 2px solid rgb(0, 0, 255);
 }
 
 form > .item-catego {
   width: auto;
   height: auto;
-  margin: 0.625rem;
-  padding: 0.625rem;
   align-content: flex-end;
-  border: 2px solid rgb(255, 255, 0);
 }
 
 .item-catego > label {
@@ -62,6 +61,18 @@ form > .item-catego {
 .item-catego > select {
   width: auto;
   height: auto;
+  border-color: rgb(143, 143, 143);
+  border: 1px solid rgb(0, 0, 255);
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+
+.item-catego > select:focus {
+  outline: none;
+  width: auto;
+  height: auto;
+  border: rgb(143, 143, 143);
+  border: 1px solid rgb(0, 0, 255);
   margin: 0.625rem;
   padding: 0.625rem;
 }
@@ -71,7 +82,7 @@ form > .item-catego {
   width: auto;
   height: auto;
   align-content: flex-start;
-  margin: 0.0625rem;
+  margin: 1.125rem;
   padding: 0.625rem;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(255, 255, 255);
@@ -94,6 +105,7 @@ form > .item-catego {
   transform: scale(1.06);
   background-color: rgb(255, 255, 255);
   border: 1.5px solid rgb(0, 0, 255);
+  padding: 0.625rem;
   color: blue;
 }
 
@@ -101,7 +113,7 @@ form > .item-catego {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
 
 .item {
@@ -121,7 +133,6 @@ form > .item-catego {
   height: 67px;
   margin-left: 35%;
   margin-bottom: 15px;
-  /* margin-right: 50%; */
 }
 
 .img-blogs img {
@@ -139,11 +150,27 @@ form > .item-catego {
 
 .options > .suite {
   width: auto;
+  min-height: 10px;
+  margin: 5px;
   background-color: rgb(255, 0, 0);
-  border: 1px solid rgb(255, 0, 0);
+  border: 1px solid rgb(0, 0, 255);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .options > .dema-devis {
-  border: 1px solid rgb(255, 0, 0);
+  width: auto;
+  min-height: 10px;
+  margin-top: 5px;
+  background-color: rgb(25, 0, 255);
+  border: 2px solid rgb(255, 0, 0);
   margin-left: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
