@@ -158,3 +158,97 @@
   border: 1px solid rgb(231, 56, 94);
   color: white;
 }
+
+/* ANIMATION DU MENU */
+/* ANIMATION DU MENU */
+/* ANIMATION DU MENU */
+#home,
+#our-form:hover {
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+
+  /* L'image est grossie de 25% */
+  -webkit-transform: scale(1.06); /* Safari et Chrome */
+  -moz-transform: scale(1.06); /* Firefox */
+  -ms-transform: scale(1.06); /* Internet Explorer 9 */
+  -o-transform: scale(1.06); /* Opera */
+  transform: scale(1.06);
+  background-color: rgb(255, 255, 255);
+}
+
+#home,
+#our-form:hover {
+  color: hsl(324, 70%, 45%);
+  animation: souscrire 10s infinite;
+  background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay) {
+  #home,
+  #our-form:hover {
+    background-image: linear-gradient(45deg, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+
+#home,
+#our-form:hover {
+  animation-duration: 2s;
+  animation-name: souscrire;
+  animation-iteration-count: infinite;
+}
+
+@keyframes souscrire {
+  from,
+  to {
+    color: hsl(0, 0%, 99%);
+  }
+  0% {
+    background-color: hsl(0, 75%, 35%, 1);
+    border: 2px solid hsl(56, 75%, 35%, 1);
+  }
+  10% {
+    background-color: hsl(360, 65%, 45%, 1);
+    border: 2px solid hsl(288, 60%, 40%, 1);
+  }
+  20% {
+    background-color: hsl(36, 80%, 45%, 1);
+    border: 2px solid hsl(252, 65%, 50%, 1);
+  }
+  30% {
+    background-color: hsl(72, 75%, 35%, 1);
+    border: 2px solid hsl(216, 60%, 45%, 1);
+  }
+  40% {
+    background-color: hsl(108, 65%, 35%, 1);
+    border: 2px solid hsl(180, 75%, 35%, 1);
+  }
+  50% {
+    background-color: hsl(144, 75%, 35%, 1);
+    border: 2px solid hsl(144, 75%, 35%, 1);
+  }
+  60% {
+    background-color: hsl(180, 75%, 35%, 1);
+    border: 2px solid hsl(108, 65%, 35%, 1);
+  }
+  70% {
+    background-color: hsl(216, 60%, 45%, 1);
+    border: 2px solid hsl(72, 75%, 35%, 1);
+  }
+  80% {
+    background-color: hsl(252, 65%, 50%, 1);
+    border: 2px solid hsl(36, 80%, 45%, 1);
+  }
+  90% {
+    background-color: hsl(288, 60%, 40%, 1);
+    border: 2px solid hsl(360, 65%, 45%, 1);
+  }
+  100% {
+    background-color: hsl(56, 75%, 35%, 1);
+    border: 2px solid hsl(0, 75%, 35%, 1);
+  }
+}
