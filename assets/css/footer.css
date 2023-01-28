@@ -1,160 +1,151 @@
-
 /*  FOOTER FOOTER FOOTER FOOTER
     FOOTER FOOTER FOOTER FOOTER
     FOOTER FOOTER FOOTER FOOTER*/
- 
-    .content > .footer{
-        background-color: rgb(4, 4, 122);
-        display: flex;
-        margin-top: -20px;
-    }
-    
-    .footer > .div-foot{
-        padding-left:50px;
-    }
-    
-    .div-foot > .libelle-foot{
-        margin: 5px;
-        font-family: Georgia;
-        font-size: 17px;
-        color: white;
-    }
-    
-    .partenaire > .part-1{
-        display: flex;
-    }
-    
-    .part-1 .part-1-1{
-        padding: 10px;
-        text-align: center;
-        color: white;
-    }
-    
-    .barre{
-        border: 1px solid white;
-        color: white;
-    }
-    
-    #bar-1{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -67px 43px;
-        border: 1px solid white;
-    }
 
-    #bar-2{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -78px 43px;
-        border: 1px solid white;
-    }
+.content > .footer {
+  background-color: rgb(4, 4, 122);
+  display: flex;
+  margin-top: -20px;
+}
 
-    #bar-3{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -114px 43px;
-        border: 1px solid white;
-    }
+.footer > .div-foot {
+  padding-left: 50px;
+}
 
-    #bar-4{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -67px 43px;
-        border: 1px solid white;
-    }
+.div-foot > .libelle-foot {
+  margin: 5px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: white;
+}
 
-    #bar-5{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -55px 43px;
-        border: 1px solid white;
-    }
+.partenaire > .part-1 {
+  display: flex;
+}
 
-    #bar-6{
-        width: 105px;
-        transform: rotate(90deg);
-        translate: -78px 43px;
-        border: 1px solid white;
-    }
+.part-1 .part-1-1 {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 
+.barre {
+  border: 1px solid white;
+  color: white;
+}
 
+#bar-1 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -67px 43px;
+  border: 1px solid white;
+}
 
+#bar-2 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -78px 43px;
+  border: 1px solid white;
+}
 
-    
-    .lien{
-        margin: 7px;
-        color: white;
-    }
-    
-    .lien > .percent{
-        width: 25px;
-        height: 25px;
-        padding: 10px;
-        text-align: center;
-        border: 3px solid orangered;
-        border-radius: 90px;
-        translate: 30px 15px;
-        color: white;
-    }
-    
-    .menu{
-        color: white;
-        text-decoration: none;
-    }
-    
-    .reseaux-s{
-        width: 12px;
-        height: 12px;
-        border-radius: 90px;
-        border: 2px solid white;
-    
-    }
-    
-    .form{
-        background-color: rgb(4, 4, 122);
-        height: 50px;
-        margin-top: -15px;
-    }
-    
-    .final > .forminput{
-        width: 500px;
-        margin-top: -10px;
-    }
-    
-    #formul > #div-formul{
-        display: flex;
-        
-    }
-    
-    .endOne{
-        background-color: rgb(255, 255, 255);
-        height: 30px;
-        width: 300px;
-        margin: 0px 0 0 350px;
-        padding: 2px;
-        border-radius: 15px;
-    }
-    
-    
-    input#forminput {
-        height: 18px;
-        width: 210px;
-        padding: 3px;
-        border-radius: 15px 0 0 15px;
-        border: 2px solid orangered;
-    }
-    
-    input#submitEnd{
-        background-color: rgb(0, 0, 255);
-        width: 80px;
-        height: 28px;
-        border-radius: 0 15px 15px 0;
-        border: 2px solid rgb(0, 0, 255);
-        color: white;
-    }
-    
-    .endTwo{
-        color: white;
-        margin: 5px 0 0 200px;
-    }
-    
+#bar-3 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -114px 43px;
+  border: 1px solid white;
+}
+
+#bar-4 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -67px 43px;
+  border: 1px solid white;
+}
+
+#bar-5 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -55px 43px;
+  border: 1px solid white;
+}
+
+#bar-6 {
+  width: 105px;
+  transform: rotate(90deg);
+  translate: -78px 43px;
+  border: 1px solid white;
+}
+
+.lien {
+  margin: 7px;
+  margin-top: -5px;
+  color: white;
+}
+
+.lien > .percent {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid orangered;
+  border-radius: 90px;
+  translate: 30px 15px;
+  color: white;
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+}
+
+.reseaux-s {
+  width: 12px;
+  height: 12px;
+  border-radius: 90px;
+  border: 2px solid white;
+}
+
+.form {
+  background-color: rgb(4, 4, 122);
+  height: 50px;
+  margin-top: -15px;
+}
+
+.form > .final {
+  margin-top: 15px;
+}
+
+#formul > #div-formul {
+  display: flex;
+}
+
+.endOne {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 300px;
+  margin: 0px 0 0 350px;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+input#forminput {
+  height: 18px;
+  width: 210px;
+  padding: 3px;
+  border-radius: 15px 0 0 15px;
+  border: 2px solid orangered;
+}
+
+input#submitEnd {
+  background-color: rgb(0, 0, 255);
+  width: 80px;
+  height: 28px;
+  border-radius: 0 15px 15px 0;
+  border: 2px solid rgb(0, 0, 255);
+  color: white;
+}
+
+.endTwo {
+  color: white;
+  margin: 5px 0 0 200px;
+}

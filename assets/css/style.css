@@ -19,7 +19,7 @@
 
 .slide-img {
   width: 1335px;
-  height: 570px;
+  height: 625px;
 }
 
 @keyframes defiler {
@@ -80,47 +80,144 @@
   display: flex;
 }
 
-.conto > .conte {
-  padding: 2fnospx;
+.conto > .conter {
+  margin-top: 10px;
+  width: 20%;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-/* .div-content > .conte {
-  margin-top: -200px;
-} */
+.conto > .conter:hover {
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
 
-.conte > img {
+  /* L'image est grossie de 25% */
+  -webkit-transform: scale(1.06); /* Safari et Chrome */
+  -moz-transform: scale(1.06); /* Firefox */
+  -ms-transform: scale(1.06); /* Internet Explorer 9 */
+  -o-transform: scale(1.06); /* Opera */
+  transform: scale(1.06);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.conto > .conter:hover {
+  color: hsl(324, 70%, 45%);
+  animation: clignoter 10s infinite;
+  background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay) {
+  .conto > .conter:hover {
+    background-image: linear-gradient(45deg, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+
+.conto > .conter:hover {
+  animation-duration: 2s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+}
+
+@keyframes clignoter {
+  from,
+  to {
+    color: hsl(0, 0%, 99%);
+  }
+  0% {
+    background-color: hsl(0, 75%, 35%, 1);
+    border: 2px solid hsl(56, 75%, 35%, 1);
+  }
+  10% {
+    background-color: hsl(360, 65%, 45%, 1);
+    border: 2px solid hsl(288, 60%, 40%, 1);
+  }
+  20% {
+    background-color: hsl(36, 80%, 45%, 1);
+    border: 2px solid hsl(252, 65%, 50%, 1);
+  }
+  30% {
+    background-color: hsl(72, 75%, 35%, 1);
+    border: 2px solid hsl(216, 60%, 45%, 1);
+  }
+  40% {
+    background-color: hsl(108, 65%, 35%, 1);
+    border: 2px solid hsl(180, 75%, 35%, 1);
+  }
+  50% {
+    background-color: hsl(144, 75%, 35%, 1);
+    border: 2px solid hsl(144, 75%, 35%, 1);
+  }
+  60% {
+    background-color: hsl(180, 75%, 35%, 1);
+    border: 2px solid hsl(108, 65%, 35%, 1);
+  }
+  70% {
+    background-color: hsl(216, 60%, 45%, 1);
+    border: 2px solid hsl(72, 75%, 35%, 1);
+  }
+  80% {
+    background-color: hsl(252, 65%, 50%, 1);
+    border: 2px solid hsl(36, 80%, 45%, 1);
+  }
+  90% {
+    background-color: hsl(288, 60%, 40%, 1);
+    border: 2px solid hsl(360, 65%, 45%, 1);
+  }
+  100% {
+    background-color: hsl(56, 75%, 35%, 1);
+    border: 2px solid hsl(0, 75%, 35%, 1);
+  }
+}
+
+.conter > img {
   margin-top: 5px;
   width: 110px;
   height: 110px;
-  margin-left: 1px;
-  margin-right: 1px;
 }
 
-.conte > div {
+.conter > div {
   text-align: center;
+  margin-top: -10px;
   margin-left: 1px;
   margin-right: 1px;
 }
 
-.conte > .libelle {
+.conter > .libelle {
+  margin-top: 15px;
   text-align: center;
   justify-content: center;
 }
 
+.libelle > a {
+  text-decoration: none;
+}
+
 #m1 {
   margin-left: 15%;
+  border: 2px solid blue;
 }
 
 #m2,
-#m3 {
+#m3,
+#m4,
+#m5 {
   margin-left: 25%;
+  border: 2px solid blue;
+}
+
+.conter h4 {
+  margin-top: -10px;
 }
 
 #div-content-2 {
+  margin-top: -30px;
   padding: 10px;
-  /* margin-top: -400px; */
 }
 
 .div-content-2 > .content-2 {
