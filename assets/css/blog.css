@@ -1,10 +1,8 @@
 .content {
   width: 100%;
   height: 100%;
-  margin-top: -30px;
-  padding-top: 10px;
-
-  border: 1px solid rgb(0, 0, 0);
+  margin-top: -1.875rem;
+  padding-top: 0.625rem;
   background-repeat: no-repeat;
   background-color: white;
   background-image: url("../images/font.webp");
@@ -16,35 +14,30 @@
   background-color: rgba(78, 78, 78, 0.8);
   width: auto;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   margin-left: 0.625rem;
   margin-right: 0.625rem;
   padding: 0.625rem;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 .div-content-2 > .div-content {
   background-color: rgb(0, 0, 255);
   width: 50%;
   height: 100%;
-  margin-top: 20px;
-  padding: 2px;
+  margin-top: 1.25rem;
+  padding: 0.125rem;
   text-align: center;
   color: rgb(255, 255, 255);
   margin-left: 25%;
 }
-
-/* .div-content-2 > .content-item {
-  width: auto;
-  height: auto;
-} */
 
 .content-item > .item {
   background-color: rgba(255, 255, 255, 0.794);
   width: auto;
   height: auto;
   margin: 1.25rem;
-  border: 2px solid rgb(0, 0, 255);
+  border: 0.125rem solid rgb(0, 0, 255);
 }
 
 #libelle-categorie {
@@ -57,7 +50,7 @@
 }
 
 /* #categorie {
-  max-height: 25px;
+  max-height: 0.313rem;
 } */
 
 form > .item-catego {
@@ -75,9 +68,9 @@ form > .item-catego {
 
 .item-catego > select {
   width: auto;
-  height: 30px;
+  height: 1.875rem;
   /* border-color: rgb(143, 143, 143); */
-  border: 1px solid rgb(0, 0, 255);
+  border: 0.063rem solid rgb(0, 0, 255);
   margin-top: 1.125rem;
   padding: 0.325rem;
 }
@@ -85,9 +78,9 @@ form > .item-catego {
 .item-catego > select:focus {
   outline: none;
   width: auto;
-  height: 30px;
+  height: 1.875rem;
   border: rgb(143, 143, 143);
-  border: 1px solid rgb(0, 0, 255);
+  border: 0.063rem solid rgb(0, 0, 255);
   margin-top: 1.125rem;
   padding: 0.325rem;
 }
@@ -100,59 +93,40 @@ form > .item-catego {
   margin: 1.125rem;
   padding: 0.625rem;
   color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 255, 255);
-  text-align: justify;
-}
-
-.item-blog:hover {
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
-
-  /* L'image est grossie de 25% */
-  -webkit-transform: scale(1.06); /* Safari et Chrome */
-  -moz-transform: scale(1.06); /* Firefox */
-  -ms-transform: scale(1.06); /* Internet Explorer 9 */
-  -o-transform: scale(1.06); /* Opera */
-  transform: scale(1.06);
-  background-color: rgb(255, 255, 255);
-  border: 1.5px solid rgb(0, 0, 255);
-  padding: 0.625rem;
-  color: blue;
+  border: 0.125rem solid rgb(255, 255, 255);
+  align-content: justify;
 }
 
 .items {
+  text-align: justify;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.938rem;
 }
 
 .item {
-  max-height: 500px;
+  max-height: 31.25rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .item > .item-blog {
-  margin: 0 10px;
-  flex: 1 1 200px;
+  margin: 0 0.625rem;
+  flex: 0.063 0.063 12.5rem;
 }
 
 .img-blogs {
-  border: 1.5px solid rgba(78, 78, 78, 0.8);
-  width: 67px;
-  height: 67px;
+  border: 0.094rem solid rgba(78, 78, 78, 0.8);
+  width: 4.188rem;
+  height: 4.188rem;
   margin-left: 35%;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 
 .img-blogs img {
-  width: 67px;
-  height: 67px;
+  width: 4.188rem;
+  height: 4.188rem;
 }
 
 .libelle {
@@ -165,27 +139,27 @@ form > .item-catego {
 
 .options > .suite {
   width: auto;
-  min-height: 10px;
-  margin: 5px;
+  min-height: 0.625rem;
+  margin: 0.313rem;
   background-color: rgb(255, 0, 0);
-  border: 1px solid rgb(0, 0, 255);
-  border-radius: 10px;
+  border: 0.063rem solid rgb(0, 0, 255);
+  border-radius: 0.625rem;
   text-align: center;
-  padding: 5px;
+  padding: 0.313rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .options > .dema-devis {
   width: auto;
-  min-height: 10px;
-  margin-top: 5px;
+  min-height: 0.625rem;
+  margin-top: 0.313rem;
   background-color: rgb(25, 0, 255);
-  border: 2px solid rgb(255, 0, 0);
+  border: 0.125rem solid rgb(255, 0, 0);
   margin-left: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   text-align: center;
-  padding: 5px;
+  padding: 0.313rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -208,80 +182,6 @@ form > .item-catego {
   -ms-transform: scale(1.06); /* Internet Explorer 9 */
   -o-transform: scale(1.06); /* Opera */
   transform: scale(1.06);
-  background-color: rgb(255, 255, 255);
-}
-
-#blog,
-#our-form:hover {
-  color: hsl(324, 70%, 45%);
-  animation: blog 10s infinite;
-  background-color: currentColor;
-}
-
-@supports (background-blend-mode: overlay) {
-  #blog,
-  #our-form:hover {
-    background-image: linear-gradient(45deg, white 10%, black 90%);
-    background-blend-mode: overlay;
-  }
-}
-
-#blog,
-#our-form:hover {
-  animation-duration: 2s;
-  animation-name: blog;
-  animation-iteration-count: infinite;
-}
-
-@keyframes blog {
-  from,
-  to {
-    color: hsl(0, 0%, 99%);
-  }
-  0% {
-    background-color: hsl(0, 75%, 35%, 1);
-    border: 2px solid hsl(56, 75%, 35%, 1);
-  }
-  10% {
-    background-color: hsl(360, 65%, 45%, 1);
-    border: 2px solid hsl(288, 60%, 40%, 1);
-  }
-  20% {
-    background-color: hsl(36, 80%, 45%, 1);
-    border: 2px solid hsl(252, 65%, 50%, 1);
-  }
-  30% {
-    background-color: hsl(72, 75%, 35%, 1);
-    border: 2px solid hsl(216, 60%, 45%, 1);
-  }
-  40% {
-    background-color: hsl(108, 65%, 35%, 1);
-    border: 2px solid hsl(180, 75%, 35%, 1);
-  }
-  50% {
-    background-color: hsl(144, 75%, 35%, 1);
-    border: 2px solid hsl(144, 75%, 35%, 1);
-  }
-  60% {
-    background-color: hsl(180, 75%, 35%, 1);
-    border: 2px solid hsl(108, 65%, 35%, 1);
-  }
-  70% {
-    background-color: hsl(216, 60%, 45%, 1);
-    border: 2px solid hsl(72, 75%, 35%, 1);
-  }
-  80% {
-    background-color: hsl(252, 65%, 50%, 1);
-    border: 2px solid hsl(36, 80%, 45%, 1);
-  }
-  90% {
-    background-color: hsl(288, 60%, 40%, 1);
-    border: 2px solid hsl(360, 65%, 45%, 1);
-  }
-  100% {
-    background-color: hsl(56, 75%, 35%, 1);
-    border: 2px solid hsl(0, 75%, 35%, 1);
-  }
 }
 
 .item > .item-blog:hover {
@@ -298,76 +198,80 @@ form > .item-catego {
   -ms-transform: scale(0.88); /* Internet Explorer 9 */
   -o-transform: scale(0.88); /* Opera */
   transform: scale(0.88);
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 0, 0);
 }
 
+#blog,
+#our-form:hover,
 .item > .item-blog:hover {
   color: hsl(324, 70%, 45%);
-  animation: home 10s infinite;
+  animation: blog 10s infinite;
   background-color: currentColor;
 }
 
 @supports (background-blend-mode: overlay) {
+  #blog,
+  #our-form:hover,
   .item > .item-blog:hover {
     background-image: linear-gradient(45deg, white 10%, black 90%);
     background-blend-mode: overlay;
   }
 }
 
+#blog,
+#our-form:hover,
 .item > .item-blog:hover {
   animation-duration: 2s;
-  animation-name: home;
+  animation-name: blog;
   animation-iteration-count: infinite;
 }
 
-@keyframes home {
+@keyframes blog {
   from,
   to {
     color: hsl(0, 0%, 99%);
   }
   0% {
     background-color: hsl(0, 75%, 35%, 1);
-    border: 2px solid hsl(56, 75%, 35%, 1);
+    border: 0.125rem solid hsl(56, 75%, 35%, 1);
   }
   10% {
     background-color: hsl(360, 65%, 45%, 1);
-    border: 2px solid hsl(288, 60%, 40%, 1);
+    border: 0.125rem solid hsl(288, 60%, 40%, 1);
   }
   20% {
     background-color: hsl(36, 80%, 45%, 1);
-    border: 2px solid hsl(252, 65%, 50%, 1);
+    border: 0.125rem solid hsl(252, 65%, 50%, 1);
   }
   30% {
     background-color: hsl(72, 75%, 35%, 1);
-    border: 2px solid hsl(216, 60%, 45%, 1);
+    border: 0.125rem solid hsl(216, 60%, 45%, 1);
   }
   40% {
     background-color: hsl(108, 65%, 35%, 1);
-    border: 2px solid hsl(180, 75%, 35%, 1);
+    border: 0.125rem solid hsl(180, 75%, 35%, 1);
   }
   50% {
     background-color: hsl(144, 75%, 35%, 1);
-    border: 2px solid hsl(144, 75%, 35%, 1);
+    border: 0.125rem solid hsl(144, 75%, 35%, 1);
   }
   60% {
     background-color: hsl(180, 75%, 35%, 1);
-    border: 2px solid hsl(108, 65%, 35%, 1);
+    border: 0.125rem solid hsl(108, 65%, 35%, 1);
   }
   70% {
     background-color: hsl(216, 60%, 45%, 1);
-    border: 2px solid hsl(72, 75%, 35%, 1);
+    border: 0.125rem solid hsl(72, 75%, 35%, 1);
   }
   80% {
     background-color: hsl(252, 65%, 50%, 1);
-    border: 2px solid hsl(36, 80%, 45%, 1);
+    border: 0.125rem solid hsl(36, 80%, 45%, 1);
   }
   90% {
     background-color: hsl(288, 60%, 40%, 1);
-    border: 2px solid hsl(360, 65%, 45%, 1);
+    border: 0.125rem solid hsl(360, 65%, 45%, 1);
   }
   100% {
     background-color: hsl(56, 75%, 35%, 1);
-    border: 2px solid hsl(0, 75%, 35%, 1);
+    border: 0.125rem solid hsl(0, 75%, 35%, 1);
   }
 }

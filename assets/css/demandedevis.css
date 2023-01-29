@@ -1,13 +1,42 @@
 .content {
-  min-width: 100%;
-  min-height: 100%;
-  margin-top: -1em;
-  background: url("../images/backgrown/demandedevis-2.jpeg");
-  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: -1.875rem;
+  padding-top: 0.625rem;
   background-repeat: no-repeat;
   background-color: white;
+  background-image: url("../images/backgrown/demandedevis-2.jpeg");
+  background-position: right;
+  background-attachment: fixed;
 }
 
+#div-devis {
+  border: 1px solid rgb(255, 0, 0);
+  margin-top: -0.313rem;
+  margin-bottom: 1.25rem;
+}
+.get-devis {
+  margin-top: 1.563rem;
+}
+#demand-devis {
+  border: 0.063rem solid rgb(255, 255, 255);
+}
+#desc-description {
+  border: 0.063rem solid rgb(0, 162, 255);
+}
+#container-devis {
+  border: 0.063rem solid rgb(255, 0, 140);
+}
+#form-devis {
+  border: 0.063rem solid rgb(0, 0, 0);
+}
+.infor {
+  border: 0.063rem solid rgb(255, 255, 0);
+  margin: 0.313rem;
+}
+.content-control {
+  display: flex;
+}
 /* ANIMATION DU MENU */
 /* ANIMATION DU MENU */
 /* ANIMATION DU MENU */
@@ -26,7 +55,6 @@
   -ms-transform: scale(1.06); /* Internet Explorer 9 */
   -o-transform: scale(1.06); /* Opera */
   transform: scale(1.06);
-  background-color: rgb(255, 255, 255);
 }
 
 #devis,
@@ -58,46 +86,46 @@
   }
   0% {
     background-color: hsl(0, 75%, 35%, 1);
-    border: 2px solid hsl(56, 75%, 35%, 1);
+    border: 0.125rem solid hsl(56, 75%, 35%, 1);
   }
   10% {
     background-color: hsl(360, 65%, 45%, 1);
-    border: 2px solid hsl(288, 60%, 40%, 1);
+    border: 0.125rem solid hsl(288, 60%, 40%, 1);
   }
   20% {
     background-color: hsl(36, 80%, 45%, 1);
-    border: 2px solid hsl(252, 65%, 50%, 1);
+    border: 0.125rem solid hsl(252, 65%, 50%, 1);
   }
   30% {
     background-color: hsl(72, 75%, 35%, 1);
-    border: 2px solid hsl(216, 60%, 45%, 1);
+    border: 0.125rem solid hsl(216, 60%, 45%, 1);
   }
   40% {
     background-color: hsl(108, 65%, 35%, 1);
-    border: 2px solid hsl(180, 75%, 35%, 1);
+    border: 0.125rem solid hsl(180, 75%, 35%, 1);
   }
   50% {
     background-color: hsl(144, 75%, 35%, 1);
-    border: 2px solid hsl(144, 75%, 35%, 1);
+    border: 0.125rem solid hsl(144, 75%, 35%, 1);
   }
   60% {
     background-color: hsl(180, 75%, 35%, 1);
-    border: 2px solid hsl(108, 65%, 35%, 1);
+    border: 0.125rem solid hsl(108, 65%, 35%, 1);
   }
   70% {
     background-color: hsl(216, 60%, 45%, 1);
-    border: 2px solid hsl(72, 75%, 35%, 1);
+    border: 0.125rem solid hsl(72, 75%, 35%, 1);
   }
   80% {
     background-color: hsl(252, 65%, 50%, 1);
-    border: 2px solid hsl(36, 80%, 45%, 1);
+    border: 0.125rem solid hsl(36, 80%, 45%, 1);
   }
   90% {
     background-color: hsl(288, 60%, 40%, 1);
-    border: 2px solid hsl(360, 65%, 45%, 1);
+    border: 0.125rem solid hsl(360, 65%, 45%, 1);
   }
   100% {
     background-color: hsl(56, 75%, 35%, 1);
-    border: 2px solid hsl(0, 75%, 35%, 1);
+    border: 0.125rem solid hsl(0, 75%, 35%, 1);
   }
 }
