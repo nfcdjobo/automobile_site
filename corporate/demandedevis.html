@@ -53,8 +53,8 @@
 
   <section class="content" id="content">
     <div class="div-devis" id="div-devis">
-      <h2 class="get-devis" id="demand-devis">Demande de Dévis</h2>
-      <h5 class="get-devis" id="desc-description">Description</h5>
+      <h2 class="get-devis" id="demand-devis">DEMANDE DE DEVIS</h2>
+      <h4 class="get-devis" id="desc-description">Description</h4>
       <div class="get-devis" id="container-devis">
         <form action="" method="" class="form-devis" id="form-devis" name="form-devis"> 
           <div class="gross">
@@ -70,28 +70,28 @@
                   </label>
                 </div>
                 <div class="rowls" id="">
-                  <label class="label-control" for="nom">Nom et Prénom(s):<br>
-                  <input class="form-control" type="text" name="name"  id="name">
+                  <label class="label-control" for="name">Nom et Prénom(s):<br>
+                  <input class="form-control" type="text" name="name"  id="name" required placeholder="Your First and Last name">
                   </label>
                 </div>
                 <div class="rowls" id="">
                   <label class="label-control" for="email">Email:<br>
-                  <input class="form-control" type="email" name="email" id="email">
+                  <input class="form-control" type="email" name="email" id="email" required placeholder="Your mail adress">
                   </label>
                 </div>
                 <div class="rowls" id="">
                   <lable class="label-control" for="telephone1">Téléphone 1<br>
-                  <input class="form-control" type="tel" name="telephone1" id="telephone1" value="">
+                  <input class="form-control" type="tel" name="telephone1" id="telephone1" value="" required placeholder="Your phone number">
                   </lable>
                 </div>
                 <div class="rowls" id="">
                   <lable class="label-control" for="telephone2">Téléphone 2<br>
-                  <input class="form-control" type="tel" name="telephone2" id="telephone2" value="">
+                  <input class="form-control" type="tel" name="telephone2" id="telephone2" value="" placeholder="Your second number phone">
                   </lable>
                 </div>
                 <div class="rowls" id="">
                   <label class="label-control" for="adresse">Adresse:<br>
-                  <input class="form-control" type="text" name="adresse" id="adresse">
+                  <input class="form-control" type="text" name="adresse" id="adresse" placeholder="Your home adress">
                   </label>
                 </div>
               </div>
@@ -123,13 +123,13 @@
                   </label>
                 </div>
                 <div class="rowls" id="">
-                  <label class="label-control" for="desc-image"><br>
-                  <input type="file" class="form-control" name="desc-image" type="text" id="desc-image">
+                  <label class="label-control" for="desc-image">Ullistration par image<br>
+                  <input type="file" class="form-control" name="desc-image" type="text" id="desc-image" accept="image/*">
                   </label>
                 </div>
                 <div class="rowls" id="">
                   <label class="label-control" for="desc-besion">Descriptif besoin<br>
-                  <textarea class="textarea-control" name="desc-besion" id="desc-besion" rows="5" cols="5"></textarea>
+                  <textarea class="textarea-control" name="desc-besion" id="desc-besion" rows="5" cols="5" required placeholder="Description of your need"></textarea>
                   </label>
                 </div>
               </div>
