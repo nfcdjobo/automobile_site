@@ -6,7 +6,7 @@
 
 .slider > .slides {
   width: calc(1335px * 4);
-  animation: defiler 32s infinite;
+  animation: defiler 25s infinite;
 }
 
 .slides > .slide {
