@@ -167,8 +167,7 @@ form > .item-catego {
 /* ANIMATION DU MENU */
 /* ANIMATION DU MENU */
 /* ANIMATION DU MENU */
-#blog,
-#our-form:hover {
+#blog{
   /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
@@ -198,11 +197,15 @@ form > .item-catego {
   -ms-transform: scale(0.88); /* Internet Explorer 9 */
   -o-transform: scale(0.88); /* Opera */
   transform: scale(0.88);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 255);
+  color: blue;
 }
 
-#blog,
-#our-form:hover,
-.item > .item-blog:hover {
+#blog
+/* #our-form:hover, */
+{
   color: hsl(324, 70%, 45%);
   animation: blog 10s infinite;
   background-color: currentColor;
@@ -210,16 +213,14 @@ form > .item-catego {
 
 @supports (background-blend-mode: overlay) {
   #blog,
-  #our-form:hover,
+  /* #our-form:hover, */
   .item > .item-blog:hover {
     background-image: linear-gradient(45deg, white 10%, black 90%);
     background-blend-mode: overlay;
   }
 }
 
-#blog,
-#our-form:hover,
-.item > .item-blog:hover {
+#blog{
   animation-duration: 2s;
   animation-name: blog;
   animation-iteration-count: infinite;

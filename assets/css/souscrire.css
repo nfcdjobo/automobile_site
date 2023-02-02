@@ -183,7 +183,7 @@
 #home,
 #our-form:hover {
   color: hsl(324, 70%, 45%);
-  animation: souscrire 10s infinite;
+  animation: souscrire 2s;
   background-color: currentColor;
 }
 
@@ -199,7 +199,7 @@
 #our-form:hover {
   animation-duration: 2s;
   animation-name: souscrire;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2s;
 }
 
 @keyframes souscrire {

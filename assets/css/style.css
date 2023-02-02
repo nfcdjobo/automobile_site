@@ -1,12 +1,11 @@
 .my-slider > .slider {
-  width: 1335px;
   overflow: hidden;
   margin-top: -30px;
 }
 
 .slider > .slides {
   width: calc(1335px * 4);
-  animation: defiler 25s infinite;
+  animation: defiler 16s infinite;
 }
 
 .slides > .slide {
@@ -96,83 +95,19 @@
   transition: all 1s ease;
 
   /* L'image est grossie de 25% */
-  -webkit-transform: scale(1.06); /* Safari et Chrome */
-  -moz-transform: scale(1.06); /* Firefox */
-  -ms-transform: scale(1.06); /* Internet Explorer 9 */
-  -o-transform: scale(1.06); /* Opera */
-  transform: scale(1.06);
+  -webkit-transform: scale(0.8); /* Safari et Chrome */
+  -moz-transform: scale(0.8); /* Firefox */
+  -ms-transform: scale(0.8); /* Internet Explorer 9 */
+  -o-transform: scale(0.8); /* Opera */
+  transform: scale(0.8);
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 0, 0);
-}
-
-.conto > .conter:hover {
-  color: hsl(324, 70%, 45%);
-  animation: home 10s infinite;
-  background-color: currentColor;
-}
-
-@supports (background-blend-mode: overlay) {
-  .conto > .conter:hover {
-    background-image: linear-gradient(45deg, white 10%, black 90%);
-    background-blend-mode: overlay;
-  }
+  border: 2px solid rgb(0, 0, 255);
 }
 
 .conto > .conter:hover {
   animation-duration: 2s;
   animation-name: home;
   animation-iteration-count: infinite;
-}
-
-@keyframes home {
-  from,
-  to {
-    color: hsl(0, 0%, 99%);
-  }
-  0% {
-    background-color: hsl(0, 75%, 35%, 1);
-    border: 2px solid hsl(56, 75%, 35%, 1);
-  }
-  10% {
-    background-color: hsl(360, 65%, 45%, 1);
-    border: 2px solid hsl(288, 60%, 40%, 1);
-  }
-  20% {
-    background-color: hsl(36, 80%, 45%, 1);
-    border: 2px solid hsl(252, 65%, 50%, 1);
-  }
-  30% {
-    background-color: hsl(72, 75%, 35%, 1);
-    border: 2px solid hsl(216, 60%, 45%, 1);
-  }
-  40% {
-    background-color: hsl(108, 65%, 35%, 1);
-    border: 2px solid hsl(180, 75%, 35%, 1);
-  }
-  50% {
-    background-color: hsl(144, 75%, 35%, 1);
-    border: 2px solid hsl(144, 75%, 35%, 1);
-  }
-  60% {
-    background-color: hsl(180, 75%, 35%, 1);
-    border: 2px solid hsl(108, 65%, 35%, 1);
-  }
-  70% {
-    background-color: hsl(216, 60%, 45%, 1);
-    border: 2px solid hsl(72, 75%, 35%, 1);
-  }
-  80% {
-    background-color: hsl(252, 65%, 50%, 1);
-    border: 2px solid hsl(36, 80%, 45%, 1);
-  }
-  90% {
-    background-color: hsl(288, 60%, 40%, 1);
-    border: 2px solid hsl(360, 65%, 45%, 1);
-  }
-  100% {
-    background-color: hsl(56, 75%, 35%, 1);
-    border: 2px solid hsl(0, 75%, 35%, 1);
-  }
 }
 
 .conter > img {
